@@ -11,6 +11,66 @@
 <thead>
 <tr><td rowspan="1" colspan="3">FT1</td></tr>
 </thead><tbody>
+<tr>
+	<td>click</td>
+	<td>//a[@id='action-menu-toggle-3']/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=actionmenuaction-12</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=qtype_qtype_multichoice</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=submitbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_name</td>
+	<td>Name</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_questiontext</td>
+	<td>&lt;p&gt;text&lt;br&gt;&lt;/p&gt;</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_answer_0</td>
+	<td>&lt;p&gt;Choice&lt;br&gt;&lt;/p&gt;</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=id_fraction_0</td>
+	<td>label=75%</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_answer_1</td>
+	<td>&lt;p&gt;Choice 2&lt;br&gt;&lt;/p&gt;</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=id_submitbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>One of the choices should be 100%</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=id_cancel</td>
+	<td></td>
+</tr>
 
 </tbody></table>
 </body>

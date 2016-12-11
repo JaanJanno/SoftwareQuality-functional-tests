@@ -4,12 +4,12 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="http://localhost/" />
-<title>FT2</title>
+<title>SetupQuiz</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">FT2</td></tr>
+<tr><td rowspan="1" colspan="3">SetupQuiz</td></tr>
 </thead><tbody>
 <tr>
 	<td>open</td>
@@ -23,7 +23,7 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>id=module_url</td>
+	<td>id=module_quiz</td>
 	<td></td>
 </tr>
 <tr>
@@ -32,28 +32,33 @@
 	<td></td>
 </tr>
 <tr>
+	<td>click</td>
+	<td>id=id_name</td>
+	<td></td>
+</tr>
+<tr>
 	<td>type</td>
 	<td>id=id_name</td>
-	<td>Ägelink1</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=id_externalurl</td>
-	<td>http://www.google.com</td>
+	<td>Quiz</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>id=id_submitbutton</td>
+	<td>id=id_submitbutton2</td>
 	<td></td>
 </tr>
 <tr>
-	<td>assertTextPresent</td>
-	<td>Click http://www.google.com link to open resource.</td>
+	<td>click</td>
+	<td>id=action-menu-toggle-9</td>
 	<td></td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>css=a[title=&quot;Introduction to Testing&quot;] &gt; span</td>
+	<td>id=actionmenuaction-41</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Edit quiz</td>
 	<td></td>
 </tr>
 

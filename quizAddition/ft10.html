@@ -11,6 +11,116 @@
 <thead>
 <tr><td rowspan="1" colspan="3">FT1</td></tr>
 </thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/course/view.php?id=2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[4]/div/div/span/a/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=module_quiz</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=submitbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_name</td>
+	<td>Quiz2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_introeditor</td>
+	<td>&lt;p&gt;Description&lt;br&gt;&lt;/p&gt;</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Timing</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_timeopen_enabled</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=id_timeopen_day</td>
+	<td>label=12</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=id_timeopen_year</td>
+	<td>label=2017</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=id_timeopen_hour</td>
+	<td>label=12</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=id_timeopen_minute</td>
+	<td>label=00</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_timeclose_enabled</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=id_timeclose_day</td>
+	<td>label=12</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=id_timeclose_year</td>
+	<td>label=2017</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=id_timeclose_hour</td>
+	<td>label=12</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=id_timeclose_minute</td>
+	<td>label=00</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=id_timelimit_enabled</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_timelimit_number</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=id_submitbutton2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/course/view.php?id=2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextNotPresent</td>
+	<td>Quiz2</td>
+	<td></td>
+</tr>
 
 </tbody></table>
 </body>
